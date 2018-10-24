@@ -1,0 +1,62 @@
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + .oneField { 
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + .oneField { /* (RADIO CHECKED)  */
+  border:50px rgb(36, 163, 79);
+  background-color: rgb(36, 163, 79);
+}
+
+label.a {
+  text-align: right;
+}
+
+td.span4 {
+  padding: 0.3rem;
+  text-align: center;
+}
+.pull-right {
+  float: right;
+}
+
+button.span4 {
+  border: #0b7ec2;
+  background-color:#0b7ec2 ;
+}
+
+a.cancel {
+  border: #ed7615 ;
+  background-color: #ed7615;
+}
+
+.nav1 {
+  border: #0b7ec2;
+  background-color:#0b7ec2 ;
+
+}
+
+.alert-default {
+ 
+}
+
+.btn-block{
+  border: #0b7ec2;
+  background-color:#0b7ec2
+  
+}
+
+.alert-danger{
+  border: #f7e6e6;
+  background-color: #f7e6e6;
+  opacity: 0,5;
+}
+
+.alert-success{
+  border: #ffe3d3;
+  background-color:#ffe3d3 ;
+
+}
